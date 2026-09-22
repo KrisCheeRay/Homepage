@@ -1,0 +1,8 @@
+---
+title: "Visitor Management System"
+excerpt: "A full-stack visitor registration, reservation, approval, notification, and administration system."
+collection: portfolio
+---
+
+Developed RESTful backend services with Python, FastAPI, SQLAlchemy, and SQLite, plus a JavaScript frontend using asynchronous Fetch API communication.
+
