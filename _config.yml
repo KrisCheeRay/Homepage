@@ -29,6 +29,7 @@ author:
   bio              : "Student & Researcher @ CUHKSZ"
   location         : "Shenzhen, Guangdong, China"
   employer         : "CUHKSZ"
+  employer_url     : "https://www.cuhk.edu.cn/zh-hans"
   uri              : # URL
   email            : "123090007@link.cuhk.edu.cn"
 
@@ -83,13 +84,8 @@ author:
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+# Publication categories are intentionally omitted until there are multiple
+# publication types to display.
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
