@@ -42,10 +42,6 @@
       <p class="archive__item-excerpt" itemprop="description">{{ post.publication_intro }}</p>
     {% endif %}
 
-    {% if post.publication_status %}
-      <p class="archive__item-status"><strong>Status:</strong> {{ post.publication_status }}</p>
-    {% endif %}
-
     {% if post.github_url %}
       <p class="archive__item-github"><a href="{{ post.github_url }}">View on GitHub</a></p>
     {% endif %}
