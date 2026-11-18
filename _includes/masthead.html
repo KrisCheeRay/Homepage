@@ -14,7 +14,13 @@
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' or link.url == '/publications/' and page.url contains 'publication' %}selected{% endif %}">
+            {% assign nav_selected = false %}
+            {% if page.url contains link.url and link.url != '/' %}
+              {% assign nav_selected = true %}
+            {% elsif link.url == '/publications/' and page.nav_section == 'publications' %}
+              {% assign nav_selected = true %}
+            {% endif %}
+            <li class="masthead__menu-item {% if nav_selected %}selected{% endif %}">
               <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
             </li>
           {% endfor %}

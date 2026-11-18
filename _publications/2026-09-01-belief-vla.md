@@ -2,6 +2,7 @@
 title: "Act on What You Anticipate: Hierarchical Predictive Beliefs for Latent Reasoning in Robotic Manipulation"
 collection: publications
 permalink: /publication/hierarchical-predictive-beliefs/
+nav_section: publications
 author_list_html: "Ruixing Jin, Chen Pengyu, <strong>Rui CAI</strong><sup>*</sup>, Runyi Zhao, Zhizheng Wu, and Guiliang Liu"
 publication_intro: "This work studies hierarchical predictive beliefs for latent reasoning in long-horizon robotic manipulation."
 publication_status: "Under review at CVPR 2027."

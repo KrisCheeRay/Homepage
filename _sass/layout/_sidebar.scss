@@ -158,6 +158,7 @@
     height: 36px;
     max-width: none;
     object-fit: cover;
+    object-position: center 38%;
     border-radius: 16px;
 
     @include breakpoint($large) {
